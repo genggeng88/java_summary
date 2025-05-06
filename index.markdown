@@ -13,5 +13,5 @@ title: Knowledge Summary
 Below is a list of topics I want to share:
 
 {% for knowledge in site.knowledge %}
-- **{{ knowledge.topic }}**: [{{ knowledge.title }}]({{ knowledge.url }})
+- **{{ knowledge.topic }}**: [{{ knowledge.title }}]({{ site.baseurl }}{{ knowledge.url }})
 {% endfor %}
